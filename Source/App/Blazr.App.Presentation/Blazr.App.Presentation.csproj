@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Blazr.EditStateTracker" Version="1.3.0" />
+	  <PackageReference Include="Blazr.FluentValidation" Version="1.0.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid" Version="8.0.7" />
+
+	  <ProjectReference Include="..\Blazr.App.Core\Blazr.App.Core.csproj" />
+  </ItemGroup>
+
+</Project>

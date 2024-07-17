@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DataPipeline\ListQueryRequest.cs~RF25edc0a7.TMP" />
+    <None Remove="DataPipeline\Results\ItemQueryResult.cs~RF25f83700.TMP" />
+    <None Remove="WeatherForecasts\WeatherForecast.cs~RF25e9ad52.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataPipeline\Results\" />
+  </ItemGroup>
+
+</Project>
