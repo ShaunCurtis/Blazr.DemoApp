@@ -8,7 +8,7 @@ namespace Blazr.App.Infrastructure;
 public static class ApplicationInfrastructureServices
 {
     /// <summary>
-    /// Adds the server side Mapped Infrastructure services
+    /// Adds the server side Infrastructure services
     /// and generic handlers
     /// </summary>
     /// <param name="services"></param>
